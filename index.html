@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="./styles/style.css" />
+    <link rel="Stylesheet" href="./styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Note App</title>
+</head>
+<body>
+    <div class="themeIcon d-flex justify-content-center align-items-center shadow">
+    <h1 class="title  p-4">Note App</h1>
+        <i class="Icon fas fa-sun fa-2x text-warning mr-5"></i>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <input id="NoteInput" type="text" class="form-control" placeholder="type something..."/>
+                <div class="colorPicker d-flex  align-items-center my-3">
+                  <i style ="color: #892be280;" class="colorIcons fas fa-circle"></i>
+                  <i style ="color: #297fb9a8;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: lightgreen;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: yellow;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: gold;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: violet;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: #80808060;" class="colorIcons fas fa-circle  mx-1"></i>
+                  <i style ="color: #00804f7a;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: #ff0000a2;" class="colorIcons fas fa-circle mx-1"></i>
+                  <i style ="color: orange;" class="colorIcons fas fa-circle mx-1"></i>
+                  <div class="ApplicableBtn">
+                      <button type="button" class="btn AddBtn   btn-success"><i class="fas fa-plus"></i></button>
+                      <button type="button" class="btn DeleteBtn btn-danger"><i class="fas fa-eraser"></i></button>
+                  </div>
+                </div>    
+            </div>
+        </div> 
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="Notes">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./scripts/bootstrap.min.js"></script>  
+    <script src="./scripts/popper.min.js"></script>  
+    <script src="./scripts/script.js"></script>      
+</body>
+</html>

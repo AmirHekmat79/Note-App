@@ -1,0 +1,20 @@
+
+.title{
+    width : 100%;
+    color : #daa5208c;
+    text-align : center;
+    text-shadow : 2px 2px orangered;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+/* Icon style */
+.moon{ 
+     color : #eee;
+}
+/* End of Icon style */
+
+
+/*button styles */
+.ApplicableBtn{
+    margin-left: auto;
+}
+/*End of button styles */
